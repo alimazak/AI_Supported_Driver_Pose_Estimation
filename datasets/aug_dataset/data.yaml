@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 1
+names: ['steering']
+
+roboflow:
+  workspace: mazak-ruliq
+  project: aug_dataset-toyej-phssw
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mazak-ruliq/aug_dataset-toyej-phssw/dataset/1
